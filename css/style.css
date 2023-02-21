@@ -1,0 +1,232 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: orange;
+    position: relative;
+}
+
+.header>.logo img {
+    width: 150px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+.header .dang-nhap {
+    position: absolute;
+    right: 0px;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 0 0 0 20px;
+}
+
+.header li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Xong phần đầu */
+.header a:hover {
+    color: orangered;
+}
+
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+
+.menu ul li a:hover {
+    color: yellow;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+
+.menu ul ul a {
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+
+.menu ul ul a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+/* Xong phần menu ngang */
+.column {
+    width: 16.6%;
+    float: left;
+    margin-bottom: 20px;
+
+
+}   
+
+.san-pham {
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.san-pham:hover{
+    box-shadow: aqua;
+    border: 2px solid aquamarine;
+}
+
+.san-pham .ten {
+    font-size: larger;
+    font-variant: small-caps;
+    color: blue;
+}
+
+.san-pham img {
+    max-width: 95%;
+}
+
+.san-pham .gia {
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+}
+.san-pham .anh-chinh{
+    position: relative;
+    
+
+}
+.san-pham .gia del {
+    color: gray;
+}
+.sale img{
+    width: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.flash-sale{
+    border: 1px solid black;
+    height: 300px;
+}
+.flash-sale h3{
+    padding: 10px;
+    color: red;
+}
+/* Xong phần .flash-sale */
+.ban-tin{
+    width: 100%;
+
+}
+.ban-tin .tin-chinh{
+    float: left;
+    width: 70%;
+    height: 300px;
+   
+}
+
+.ban-tin img{
+    width: 100%;
+}
+.ban-tin .tin-phu{
+    float: right;
+    width: 30%;
+}
+/* xong bản tin */
+.giay-nam{
+    clear: both;
+}
+.giay-nam h3{
+    padding: 20px;
+}
+.khung{
+    width: 16.6%;
+    float: left;
+    margin-bottom: 20px;
+}
+.trung{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.trung .name {
+    font-size: larger;
+    font-variant: small-caps;
+    color: blue;
+}
+.giay-nam img{
+    max-width: 90%;
+}
+.tien del{
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+}
+.khung:hover{
+    box-shadow: red;
+    border: 2px solid aqua;
+    border-radius: 10px;
+}
+/* Xong giày nam - nữ */
+footer{
+    height: 90px;
+    width: 100%;
+    clear: both;
+    padding-top: 40px;
+    text-align: center;
+    background-color: aqua;
+}
